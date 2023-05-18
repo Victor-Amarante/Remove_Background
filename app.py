@@ -29,7 +29,7 @@ def fix_image(upload):
     st.markdown("\n")
     st.download_button("Download fixed photo", convert_image(fixed), "fixed.png", "photo/png")
 
-st.markdown('# Remove the background here')
+st.markdown('# Remove the background')
 my_upload = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
 
 col1, col2 = st.columns(2)
